@@ -1,0 +1,352 @@
+e_tamriel = {
+		
+	3816.1.2 = {
+		holder = septim_003 #Tiber
+		law = true_cognatic_succession 
+		law = succ_elder_council_elective
+		effect = {
+			set_title_flag = elder_council_empire
+			set_global_flag = e_tamriel_founded
+			set_variable = { which = global_third_era_start value = 3816 } #maybe -1 to remove year zero? future me says no, 3E 0 is a thing
+			set_variable = { which = global_current_era value = 3 }
+		}
+	}
+
+	3855.1.1 = {
+		holder = septim_007 #Pelagius I
+	}
+
+	3858.1.1 = {
+		holder = septim_008 #Kintyra I
+	}
+
+	3870.1.1 = {
+		holder = septim_009 #Uriel I
+	}
+
+	3881.1.1 = {
+		holder = septim_010 #Uriel II
+	}
+
+	3899.1.1 = {
+		holder = septim_011 #Pelagius II
+	}
+
+	3916.1.1 = {
+		holder = septim_017 #Antiochus I
+	}
+
+	3937.1.1 = {
+		holder = septim_025 #Kintyra II
+	}
+
+	3938.1.1 = {
+		holder = septim_028 #Uriel III
+	}
+
+	3944.1.1 = {
+		holder = septim_019 #Cephorus I
+	}
+
+	3957.1.1 = {
+		holder = septim_021 #Magnus I
+	}
+
+	3962.1.1 = {
+		holder = septim_026 #Pelagius III The Mad
+	}
+
+	3970.1.1 = {
+		holder = septim_029 #Katariah I
+	}
+
+	4017.1.1 = {
+		holder = septim_032 #Cassynder
+	}
+
+	4019.1.1 = {
+		holder = septim_031 #Uriel IV
+	}
+
+	4063.1.1 = {
+		holder = septim_034 #Cephorus II
+	}
+
+	4085.1.1 = {
+		holder = septim_035 #Uriel V
+	}
+
+	4107.1.1 = {
+		holder = septim_037 #Uriel VI
+	}
+
+	4134.1.1 = {
+		holder = septim_038 #Morihatha
+	}
+
+	4156.1.1 = {
+		holder = septim_041 #Pelagius IV
+	}
+
+	4185.1.1 = {
+		holder = septim_042 #Uriel VII
+	}
+
+	4206.1.1 = {
+		holder = septim_055 #Jagar Tharn
+	}
+
+	4216.1.1 = {
+		holder = septim_042 #Uriel VII
+	}
+
+	4250.2.10 = {
+		holder = septim_049 #Martin I
+	}
+
+	4250.2.11 = {
+		holder = septim_050 #Potentate Ocato
+	}
+
+	4260.1.1 = {
+		holder = 0 #Interregnum
+	}
+
+	4267.6.1 = {
+		holder = septim_051 #Titus Mede I
+	}
+
+	4303.1.1 = {
+		holder = septim_052 #Attrebus I
+	}
+
+	4348.1.1 = {
+		holder = septim_053 #Attrebus II
+	}
+
+	4393.1.1 = {
+		holder = septim_054 #Titus Mede II
+	}
+}
+
+e_cyrodiil = {
+	3816.1.1 = { holder = septim_003 }
+	3816.1.2 = { holder = 0 }
+}
+	
+e_black_marsh = {
+	3816.1.1 = { holder = septim_003 }
+	3816.1.2 = { holder = hlaalu_48122 liege = e_tamriel }
+}
+
+e_elsweyr = {
+	3816.1.1 = { holder = septim_003 }
+	3816.1.2 = { holder = mane_300 liege = e_tamriel }
+}
+
+e_hammerfell = {
+	3816.1.1 = { holder = septim_003 }
+	3816.1.2 = { holder = bergama_3000 liege = e_tamriel }
+}
+
+e_high_rock = {
+	3816.1.1 = { holder = septim_003 }
+	3816.1.2 = { holder = guimard_3000 liege = e_tamriel }
+}
+
+e_morrowind = {
+	3816.1.1 = { holder = septim_003 }
+	3816.1.2 = { holder = indoril_1020 liege = e_tamriel }
+}
+
+e_skyrim = {
+	3816.1.1 = { holder = septim_003 }
+	3816.1.2 = { holder = septim_008 liege = e_tamriel }
+}
+
+e_summerset = {
+	3816.1.1 = { holder = septim_003 }
+	3816.1.2 = { holder = errinorne_36372 liege = e_tamriel }
+}
+
+e_valenwood = {
+	3816.1.1 = { holder = septim_003 }
+	3816.1.2 = { holder = camoran_300 liege = e_tamriel }
+}
+
+c_imperial_city = {
+	3816.1.2 = { holder = septim_003 liege = e_tamriel }
+}
+
+k_anvil = {
+	3816.1.1 = { liege = e_cyrodiil }
+}
+
+c_narfinsel = {
+	3816.1.1 = { liege = e_cyrodiil }
+}
+
+d_sancre_tor = {
+	3816.1.1 = { holder = septim_003 }
+}
+
+c_snowfall = { 
+	3816.1.1 = { liege = e_cyrodiil }
+}
+
+c_dragonclaw = { 
+	3816.1.1 = { liege = e_cyrodiil }
+}
+
+c_vilverin = { 
+	3816.1.1 = { liege = e_cyrodiil }
+}
+
+d_scinia = { 
+	3816.1.1 = { liege = e_cyrodiil }
+}
+
+d_ghartok = { 
+	3816.1.1 = { holder = septim_003 }
+}
+
+d_artemon = { 
+	3816.1.1 = { liege = e_cyrodiil }
+}
+
+c_bogwater = { 
+	3816.1.1 = { holder = septim_003 }
+}
+
+c_silorn = { 
+	3816.1.1 = { liege = e_cyrodiil }
+}
+
+c_alma_ruma = { 
+	3816.1.1 = { liege = e_cyrodiil }
+}
+
+d_lynmount = {
+	3816.1.1 = { liege = e_elsweyr }
+}
+
+c_nesteholt = {
+	3816.1.1 = { liege = e_summerset }
+}
+
+c_lillok = {
+	3816.1.1 = { liege = e_summerset }
+}
+
+c_archen_grove = {
+	3816.1.1 = { liege = e_summerset }
+}
+
+c_ironbark = {
+	3816.1.1 = { liege = e_summerset }
+}
+
+c_lorenar = {
+	3816.1.1 = { liege = e_summerset }
+}
+
+c_odirniran = {
+	3816.1.1 = { liege = e_morrowind }
+}
+
+k_telvanni = {
+	3816.1.1 = { liege = e_morrowind }
+}
+
+c_thunder_falls = {
+	3816.1.1 = { holder = bergama_3000 liege = e_hammerfell }
+}
+
+c_penmarch = {
+	3816.1.1 = { liege = e_high_rock }
+}
+
+c_crosswych = {
+	3816.1.1 = { liege = e_high_rock }
+}
+
+c_moira_hope = {
+	3816.1.1 = { liege = e_high_rock }
+}
+
+c_oxshire = {
+	3816.1.1 = { liege = k_evermore }
+}
+
+k_evermore = {
+	3816.1.1 = { liege = e_high_rock }
+}
+
+c_argent = {
+	3816.1.1 = { liege = e_high_rock }
+}
+
+c_raven_spring = {
+	3816.1.1 = { liege = e_high_rock }
+}
+
+k_orsinium = {
+	3816.1.1 = { liege = e_high_rock }
+}
+
+c_brasswater = {
+	3816.1.1 = { liege = e_skyrim }
+}
+
+c_purewater = {
+	3816.1.1 = { liege = e_skyrim }
+}
+
+c_hraggen = {
+	3816.1.1 = { liege = e_skyrim }
+}
+
+c_dragon_bridge = {
+	3816.1.1 = { liege = e_skyrim }
+}
+
+c_dunbarrow = {
+	3816.1.1 = { liege = e_skyrim }
+}
+
+c_hraggstad = {
+	3816.1.1 = { liege = e_skyrim }
+}
+
+c_whiteflow = {
+	3816.1.1 = { liege = e_skyrim }
+}
+
+c_span_isles = {
+	3816.1.1 = { liege = e_skyrim }
+}
+
+d_volkihar = {
+	3816.1.1 = { liege = e_skyrim }
+}
+
+d_greymarch = {
+	3816.1.1 = { liege = e_skyrim }
+}
+
+c_broken_cape = {
+	3816.1.1 = { liege = e_skyrim }
+}
+
+c_yngvild = {
+	3816.1.1 = { liege = e_skyrim }
+}
+
+c_darkshade = {
+	3816.1.1 = { liege = e_skyrim }
+}
+
+c_eastwatch = {
+	3816.1.1 = { liege = e_skyrim }
+}
+

@@ -1,0 +1,10 @@
+﻿bm_septim = {
+ 	start_date = 3816.1.1
+	is_playable = yes
+ 	recommended = no
+	group = bm_group_3e
+
+	weight = {
+		value = 90
+	}
+}
